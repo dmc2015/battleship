@@ -1,0 +1,4 @@
+one ship has_many locations
+one user has_many torpedos
+one torpedo can hit one ship
+one ship can be hit by many torpedos

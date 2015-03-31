@@ -1,0 +1,10 @@
+-Gain a understanding for the matrix method
+-Create matrix's, one for ship location another
+for torpedo locations and misses
+-track user turns
+-randomly place battleships
+-store battleship locations
+-store torpedo attack locations
+-the erd is not finished, I think I need a
+better understanding of matrix's to finish the
+erd.

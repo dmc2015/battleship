@@ -1,0 +1,38 @@
+each time a user calls out a slot
+that data must be stored(matrix/array)
+
+the location of the battleship must be stored
+
+the location of the battleship must be stored
+in a array/matrix
+
+the properties of battleships must be stored
+and their information randomized on a matrix
+
+
+a 10x10 grid is needed for battleship
+
+Armada
+
+2 5x1 ships
+
+ships are placed horizontally or vertically, not diaganoly
+
+ships do not move as the game progresses
+
+each round the player attacks and has the ability to hit an enemy ship
+
+if the player hits all spaces that the two ships are taking up then the player has won
+
+REQUIREMENTS
+
+ability to quit and resume later
+ability to start game over
+ability to see score and number of turns
+ability to see where torpedos were placed, if they hit and how many ships are left
+
+BONUS
+-set max turn limit, if player misses by the time turns are out they loose
+-use the cli to display the battlefield
+
+-make it a two player game
