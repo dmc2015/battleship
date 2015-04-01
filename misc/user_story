@@ -1,0 +1,1 @@
+As a player, when they start the game, the enemy ships will randomly be assigned a matrix or array location. Then the user can call out locations in a attempt to hit a enemy ship, once the ship has been hit 5 times it will sink.
