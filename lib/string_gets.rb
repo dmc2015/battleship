@@ -7,7 +7,7 @@ class String_That_Gets_
 
     if string_input != String
       puts "Sorry but that is not a valid input"
-          String_That_Gets.gets_string
+          String_That_Gets.gets_string(message)
     else
       return string_input
     end
@@ -21,7 +21,7 @@ class String_That_Gets_
 
      if integer_input != Integer
        puts "Sorry but that is not a valid input"
-        String_That_Gets.gets_integer
+        String_That_Gets.gets_integer(message)
       else
         return integer_input
       end
