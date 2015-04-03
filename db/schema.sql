@@ -8,12 +8,16 @@ DROP TABLE IF EXISTS oceans;
 CREATE TABLE oceans(
   id SERIAL PRIMARY KEY NOT NULL,
   name TEXT NOT NULL,
-  size TEXT NOT NULL
+  size INTEGER NOT NULL
 );
 
 CREATE TABLE ships(
   id SERIAL PRIMARY KEY NOT NULL,
   name TEXT NOT NULL,
+  starting_x INTEGER,
+  starting_y INTEGER,
+  direction TEXT,
+  length INTEGER,
   "sunk?" BOOLEAN,
   ocean_id INTEGER REFERENCES oceans(id)
 );
