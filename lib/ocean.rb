@@ -76,7 +76,7 @@ class Ocean < ActiveRecord::Base
 
 
 
-    random_dir = case Rand(1).round # 0 or 1
+    random_dir = case rand(2).round # 0 or 1
     when 0
       :horizontal
     when 1
@@ -116,3 +116,4 @@ class Ocean < ActiveRecord::Base
 
 
 end
+# binding.pry
